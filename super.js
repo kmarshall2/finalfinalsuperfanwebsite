@@ -20,38 +20,38 @@ var m= document.getElementById("fortlogo")
 function resetColumn1 () {
 	e.classList.add("hidebox")
 	f.classList.add("hidebox")
-	a.classList.toggle("pulse1");
-	a.classList.add("cursor");
+	a.classList.toggle("pulse1")
+	a.classList.add("cursor")
 	e.classList.remove("r6info")
 	e.classList.add("pulse1")
-	a.classList.add("grey");
-	e.classList.add("grey");
-	a.classList.add("shadow");
+	a.classList.add("grey")
+	e.classList.add("grey")
+	a.classList.add("shadow")
 	
 }
 
 function resetColumn2 () {
 	g.classList.add("hidebox")
 	h.classList.add("hidebox")
-	b.classList.toggle("pulse1");
-	b.classList.add("cursor");
+	b.classList.toggle("pulse1")
+	b.classList.add("cursor")
 	g.classList.remove("rlinfo")
 	g.classList.add("pulse1")
-	b.classList.add("grey");
-	g.classList.add("grey");
-	b.classList.add("shadow");
+	b.classList.add("grey")
+	g.classList.add("grey")
+	b.classList.add("shadow")
 }
 
 function resetColumn3 () {
 	i.classList.add("hidebox")
 	j.classList.add("hidebox")
-	c.classList.toggle("pulse1");
-	c.classList.add("cursor");
+	c.classList.toggle("pulse1")
+	c.classList.add("cursor")
 	i.classList.remove("fortinfo")
 	i.classList.add("pulse1")
-	c.classList.add("grey");
-	i.classList.add("grey");
-	c.classList.add("shadow");
+	c.classList.add("grey")
+	i.classList.add("grey")
+	c.classList.add("shadow")
 }
 
 
@@ -60,30 +60,30 @@ function resetColumn3 () {
 //when clicked, will add pics
 
 function addPics () {
-	e.classList.remove("hidebox");
-	f.classList.remove("hidebox");
-	a.classList.remove("pulse1");
-	a.classList.remove("cursor");
-	a.classList.remove("grey");
-	a.classList.remove("shadow");
+	e.classList.remove("hidebox")
+	f.classList.remove("hidebox")
+	a.classList.remove("pulse1")
+	a.classList.remove("cursor")
+	a.classList.remove("grey")
+	a.classList.remove("shadow")
 }
 
 function addPics1 () {
-	g.classList.remove("hidebox");
-	h.classList.remove("hidebox");
-	b.classList.remove("pulse1");
-	b.classList.remove("cursor");
-	b.classList.remove("grey");
-	b.classList.remove("shadow");
+	g.classList.remove("hidebox")
+	h.classList.remove("hidebox")
+	b.classList.remove("pulse1")
+	b.classList.remove("cursor")
+	b.classList.remove("grey")
+	b.classList.remove("shadow")
 }
 
 function addPics2 () {
-	i.classList.remove("hidebox");
-	j.classList.remove("hidebox");
-	c.classList.remove("pulse1");
-	c.classList.remove("cursor");
-	c.classList.remove("grey");
-	c.classList.remove("shadow");
+	i.classList.remove("hidebox")
+	j.classList.remove("hidebox")
+	c.classList.remove("pulse1")
+	c.classList.remove("cursor")
+	c.classList.remove("grey")
+	c.classList.remove("shadow")
 }
 
 
@@ -91,18 +91,18 @@ function addPics2 () {
 
 function addr6Info () {
 	e.classList.toggle("r6info")
-	e.classList.toggle("pulse1");
-	e.classList.remove("grey");
+	e.classList.toggle("pulse1")
+	e.classList.remove("grey")
 }
 
 function addrlInfo () {
 	g.classList.toggle("rlinfo")
-	g.classList.toggle("pulse1");
-	g.classList.remove("grey");
+	g.classList.toggle("pulse1")
+	g.classList.remove("grey")
 }
 
 function addfortInfo () {
 	i.classList.toggle("fortinfo")
-	i.classList.toggle("pulse1");
-	i.classList.remove("grey");
+	i.classList.toggle("pulse1")
+	i.classList.remove("grey")
 }
